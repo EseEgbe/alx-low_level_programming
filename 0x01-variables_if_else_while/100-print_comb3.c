@@ -13,7 +13,7 @@ int main(void)
 	int i;
 	int d;
 
-	for (i = 48; d = 48;)
+	for ((i = 48); (d = 48);)
 	{
 		while (d < 58)
 		{
