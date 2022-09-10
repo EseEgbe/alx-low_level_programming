@@ -10,10 +10,9 @@
 
 int main(void)
 {
-	int i;
-	int d;
+	int i = 48;
+	int d = 48;
 
-	for ((i = 48); (d = 48);)
 	{
 		while (d < 58)
 		{
