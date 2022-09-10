@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main – print numbers 01 to 89
+ * main - Prints numbers between 00 to 89.
  *
  * Description: all possible different combinations of two digits.
  *
@@ -17,7 +17,7 @@ int main(void)
 		while (d < 58)
 		{
 			i = 48;
-			
+
 			while (i < 58)
 			{
 				if (d != i && d < i)
