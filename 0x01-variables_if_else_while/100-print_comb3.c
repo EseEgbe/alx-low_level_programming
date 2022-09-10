@@ -13,28 +13,29 @@ int main(void)
 	int i;
 	int d;
 
-	i = 48;
-	d = 48;
-
-	while (d < 58)
+	if ((i = 48), (d = 48))
 	{
-		i = 48;
-		while (i < 58)
+		while (d < 58)
 		{
-			if (d != i && d < i)
+			i = 48;
+			
+			while (i < 58)
 			{
-				putchar(d);
-				putchar(i);
-				if (i == 57 && d == 56)
+				if (d != i && d < i)
 				{
-					break;
+					putchar(d);
+					putchar(i);
+					if (i == 57 && d == 56)
+					{
+						break;
+					}
+					putchar(',');
+					putchar(' ');
 				}
-				putchar(',');
-				putchar(' ');
+				i++;
 			}
-			i++;
+			d++;
 		}
-		d++;
 	}
 	putchar('\n');
 	return (0);
