@@ -32,8 +32,9 @@ while (h < 58)
 					putchar(' ');
 					putchar(e);
 					putchar(i);
-				if (i == 57 && d == 57 && e == 56 && i == 57)
-					break;
+					if (i == 57 && d == 57 && e == 56 &&
+							i == 57)
+						break;
 					putchar(',');
 					putchar(' ');
 				}
