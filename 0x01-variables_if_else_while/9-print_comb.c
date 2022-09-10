@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * main - Entry point
  *
  * Description:  all possible combinations of single-digit numbers
  *
@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int;
+	int i;
 
 	for (i = 48; i < 58; i++)
 	{
