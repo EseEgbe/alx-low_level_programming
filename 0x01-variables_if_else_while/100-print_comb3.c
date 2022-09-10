@@ -10,7 +10,9 @@
 
 int main(void)
 {
-	int i, d;
+	int i;
+	int d;
+
 	i = 48;
 	d = 48;
 
