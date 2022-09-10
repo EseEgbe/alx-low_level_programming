@@ -33,7 +33,7 @@ int main(void)
 					{
 						break;
 					}
-					putchat(',');
+					putchar(',');
 					putchar(' ');
 				}
 				e++;
