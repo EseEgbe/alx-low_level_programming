@@ -25,8 +25,8 @@ int main(void)
 			{
 				if (d != i && d != e && i != e &&  d < i && i < e)
 				{
-					putchar(i);
 					putchar(d);
+					putchar(i);
 					putchar(e);
 
 					if (i == 56 && d == 55 && e == 57)
