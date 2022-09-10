@@ -12,7 +12,9 @@ int main(void)
 {
 	int i, d;
 	i = 48;
-	d = 488888888le (d < 58)
+	d = 48;
+
+	while (d < 58)
 	{
 		i = 48;
 		while (i < 58)
