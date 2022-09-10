@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main – Entry point
+ * main – print numbers 01 to 89
  *
- * Description: prints numbers 01 to 89
+ * Description: all possible different combinations of two digits.
  *
  * Return: Always 0 (Success)
  */
@@ -11,13 +11,10 @@
 int main(void)
 {
 	int i, d;
-
-	i = 49;
-	d = 49;
-
-	while (d < 58)
+	i = 48;
+	d = 488888888le (d < 58)
 	{
-		i = 49;
+		i = 48;
 		while (i < 58)
 		{
 			if (d != i && d < i)
