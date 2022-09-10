@@ -1,2 +1,2 @@
 # alx-low_level_programming
-Learning the general-purpose programming language, C
+Low Level Programming Projects done for the ALX Software Engineering Programme
