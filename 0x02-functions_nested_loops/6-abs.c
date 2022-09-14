@@ -3,17 +3,15 @@
 /**
  * _abs - Entry point
  *
- * @int: Inputed integer.
+ * @i: Inputed integer.
  *
  * Description: computes the absolute value.
  *
  * Return: absolute value
  */
 
-int _abs(int)
+int _abs(int i)
 {
-	int = i;
-
 	if (i > 0)
 	{
 		return (i);
