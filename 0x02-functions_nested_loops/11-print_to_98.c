@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_sign - Entry point
+ * print_to_98 - Entry point.
  *
  * @n: Inputed integer.
  *
