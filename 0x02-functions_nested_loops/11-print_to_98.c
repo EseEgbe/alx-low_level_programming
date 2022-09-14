@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_sign - Entry point
@@ -13,23 +14,20 @@
 void print_to_98(int n)
 {
 
-	if (n < 99)
-	{
-		while (n < 99)
-		{
-			_putchar(n);
-			_putchar(',');
-			n++;
-		}
-	}
-	else if (n > 98)
+	if (n > 97)
 	{
 		while (n > 98)
 		{
-			_putchar(n);
-			_putchar(',')'
-			n--;
+			printf("%d, ", n--);
+			printf("%d\n", n);
 		}
 	}
-	_putchar('\n');
+	else
+	{
+		while (n < 98)
+		{
+			printf("%d, ", n++);
+			printf("%d\n", n);
+		}
+	}
 }
