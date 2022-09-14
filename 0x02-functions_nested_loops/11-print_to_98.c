@@ -22,7 +22,7 @@ void print_to_98(int n)
 	}
 	else if (n < 98)
 	{
-		for (n = 0 n <= 97; n++)
+		for (n = 0; n <= 97; n++)
 		{
 			_putchar(n);
 		}
