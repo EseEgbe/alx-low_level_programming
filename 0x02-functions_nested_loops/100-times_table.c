@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_times_table - Entry point
  *
@@ -25,7 +25,7 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 
-				dg = x * y
+				dg = x * y;
 
 				if (dg <= 99)
 					_putchar(' ');
