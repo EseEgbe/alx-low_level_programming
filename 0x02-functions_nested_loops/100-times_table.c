@@ -25,6 +25,7 @@ void print_times_table(int n)
 				if (dg < 10)
 				{
 					_putchar(32);
+					_putchar(32);
 					_putchar(dg + 48);
 				}
 				else if (dg < 100)
