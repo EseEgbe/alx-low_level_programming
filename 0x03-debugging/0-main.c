@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Description: Tests that the function positive_or_negative()
- * gives the correct output when given a case of 0.
+ * and gives the correct output.
  *
  * Return: 0 (Success).
  */
