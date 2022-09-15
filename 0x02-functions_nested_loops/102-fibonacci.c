@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - Entry point
@@ -19,7 +18,8 @@ int main(void)
 		sum = x + y;
 		printf("%lu", sum);
 
-		x = y = sum;
+		x = y;
+		y = sum;
 
 		if (count == 49)
 			printf("\n");
