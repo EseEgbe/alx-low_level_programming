@@ -17,7 +17,5 @@ int main(void)
 
 	positive_or_negative(i);
 
-	printf('\n')
-
 	return (0);
 }
