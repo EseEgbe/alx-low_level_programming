@@ -18,7 +18,7 @@ int main(void)
 		sum = x + y;
 
 		if (sum > 4000000)
-			reak;
+			break;
 
 		if ((sum % 2) == 0)
 			totSum += sum;
