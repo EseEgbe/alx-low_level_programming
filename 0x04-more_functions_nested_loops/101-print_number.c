@@ -6,7 +6,6 @@
  * @n: integer to be printed
  */
 
-
 void print_number(int n)
 {
 	unsigned int n1;
@@ -15,8 +14,7 @@ void print_number(int n)
 	{
 		n1 = -n;
 		_putchar('-');
-	}
-	else
+	} else
 	{
 		n1 = n;
 	}
