@@ -4,6 +4,7 @@
  * print_line - Entry point
  *
  * Description: draws a straight line in the terminal.
+ * @n: printing of _
  *
  * Return: no return value
  */
