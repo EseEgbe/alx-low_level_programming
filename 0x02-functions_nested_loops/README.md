@@ -33,3 +33,18 @@ Write a function that adds two integers and returns the result.
 
 Task 11. 98 Battery Street, the OG
 Write a function that prints all natural numbers from n to 98, followed by a new line.
+
+Task 12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself
+Write a function that prints the n times table, starting with 0.
+
+Task 13. Nature made the natural numbers; All else is the work of women
+Write a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded).
+
+Task 14. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A
+Write a program that prints the first 50 Fibonacci numbers, starting with 1 and 2.
+
+Task 15. Even Liber Abbaci
+Write a program that finds and prints the sum of the even-valued terms in the fibonacci sequence below 4,000,000.
+
+Task 16. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A+
+Write a program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2.
