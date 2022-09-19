@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * strlen - entry point
+ * _strlen - entry point
+ * @s: character for a string
  *
  * Description: returns the length of a string.
  *
@@ -16,5 +17,5 @@ int _strlen(char *s)
 	{
 		len++;
 	}
-	return(len);
+	return (len);
 }
