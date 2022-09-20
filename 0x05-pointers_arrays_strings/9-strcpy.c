@@ -8,7 +8,7 @@
  * @src: source string
  * @dest: destination string
  *
- * Returns: pointer to destination
+ * Return: pointer to destination
  */
 
 char *_strcpy(char *dest, char *src)
