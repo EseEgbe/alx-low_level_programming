@@ -12,12 +12,13 @@
 char *rot13(char *s)
 {
 	int i, j;
+
 	char alph1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char alph2[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; a[j] != '\0'; j++)
+		for (j = 0; alph1[j] != '\0'; j++)
 		{
 			if (s[i] == alph1[j])
 			{
