@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** _strncpy - entry point
+/**
+ * _strncpy - entry point
  *
  * Description: copies a string
  * @dest: destination string.
