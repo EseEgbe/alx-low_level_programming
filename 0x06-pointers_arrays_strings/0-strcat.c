@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * _strcat - appends to a string and overwrites teminal null byte
+ * _strcat - entry point
  *
+ * Description: appends to a string and overwrites teminal null byte
  * @dest: destination string.
  * @src: source string.
  *
@@ -26,5 +27,6 @@ char *_strcat(char *dest, char *src)
 		n1++;
 		n2++;
 	}
+
 	return (dest);
 }
