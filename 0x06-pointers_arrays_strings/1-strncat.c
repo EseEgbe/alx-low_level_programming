@@ -1,4 +1,5 @@
 #include "main.h"
+
 /** _strncpy - entry point
  *
  * Description: copies a string
