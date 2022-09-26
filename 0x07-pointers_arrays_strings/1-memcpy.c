@@ -8,7 +8,7 @@
  * @src: source memory area.
  * @n: bytes to be copied.
  *
- * return: pointer to dest.
+ * Return: pointer to dest.
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
