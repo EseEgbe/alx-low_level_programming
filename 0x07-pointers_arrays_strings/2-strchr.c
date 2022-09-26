@@ -12,16 +12,15 @@
 
 char *_strchr(char *s, char c)
 {
-	unsigned int i;
-
-	i = 0;
-	for (i = 0; s[i] != '\0'; i++)
+	while (*s)
 	{
-		if (s[i] == c)
-			return (s[i]);
+		if (*s != c)
+			s++;
+		else
+			return (s);
 	}
-	if (s[i] == c)
-		return (s[i]);
+	if (c == '\0')
+		return (s);
 
 	return ('\0');
 }
