@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 
 /**
  * print_diagsums - Entry point.
@@ -14,8 +13,8 @@
 void print_diagsums(int *a, int size)
 {
 	int i;
-	int n1;
-	int n2;
+	int n1 = 0;
+	int n2 = 0;
 
 	for (i = 0; i < size; i++)
 	{
