@@ -4,14 +4,14 @@
  * _pow_recursion - Entry point.
  *
  * Description: A function that returns value of x raised to the power of y.
- * @X: value to raise*
+ * @X: value to raise.
  * @y: power value.
  *
  * Return: x raised to the power of y.
  * if y less than 0, return -1
  */
 
-int _strlen_recursion(char *s)
+int _pow_recursion(int x, int y)
 {
 	if (y < 0)
 		return (-1);
