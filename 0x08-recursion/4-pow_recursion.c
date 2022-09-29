@@ -4,7 +4,7 @@
  * _pow_recursion - Entry point.
  *
  * Description: A function that returns value of x raised to the power of y.
- * @X: value to raise.
+ * @x: value to raise.
  * @y: power value.
  *
  * Return: x raised to the power of y.
