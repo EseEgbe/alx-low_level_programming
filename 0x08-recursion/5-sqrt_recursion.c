@@ -6,7 +6,7 @@ int squareroot(int n, int i);
  * _sqrt_recursion - Entry point.
  *
  * Description: A function that returns the natural square root of a number.
- * @n: inputed integer. 
+ * @n: inputed integer.
  *
  * Return: natural square root, otherwise -1.
  */
