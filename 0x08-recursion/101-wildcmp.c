@@ -7,7 +7,7 @@
  * @s1: first input string.
  * @s2: second input string.
  *
- * Return: 0
+ * Return: 1 if strings can be considered identical, otherwise 0.
  */
 
 int wildcmp(char *s1, char *s2)
