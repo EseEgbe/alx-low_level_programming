@@ -11,7 +11,7 @@
  * NULL if memory is insufficient.
  */
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	char *dup;
 	unsigned int i, len;
