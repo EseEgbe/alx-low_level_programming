@@ -11,7 +11,7 @@
   * Return: The address of the new list or NULL if it failed.
   */
 
-st_t *add_node_end(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *newList;
 	list_t *temp = *head;
