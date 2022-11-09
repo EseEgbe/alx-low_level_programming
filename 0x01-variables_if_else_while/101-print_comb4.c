@@ -9,39 +9,32 @@
 
 int main(void)
 {
-	int i = 48;
-	int d = 48;
-	int e = 48;
+	int i;
+	int j;
+	int k;
 
-	while (d < 58)
+	for (j = 48; j < 58; j++)
 	{
-		i = 0;
-
-		while (i < 58)
+		for (i = 48; i < 58; i++)
 		{
-			e = 0;
-
-			while (e < 58)
+			for (int k = 48; k < 58; k++)
 			{
-				if (d != i && d != e && i != e &&  d < i && i < e)
+				if (j != i && k != i && j < i && i < k)
 				{
-					putchar(d);
+					putchar(j);
 					putchar(i);
-					putchar(e);
-
-					if (i == 56 && d == 55 && e == 57)
+					putchar(k);
+					if (i == 57 && j == 56)
 					{
 						break;
 					}
 					putchar(',');
 					putchar(' ');
 				}
-				e++;
 			}
-			i++;
 		}
-		d++;
 	}
 	putchar('\n');
+	
 	return (0);
 }
