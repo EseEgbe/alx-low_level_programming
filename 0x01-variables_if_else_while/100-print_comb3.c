@@ -10,32 +10,27 @@
 
 int main(void)
 {
-	int i = 48;
-	int d = 48;
+	int i;
+	int j;
 
+	for (j = 48; j < 58; j++)
 	{
-		while (d < 58)
+		for (i = 48; i < 58; i++)
 		{
-			i = 48;
-
-			while (i < 58)
+			if (j != i && j < i)
 			{
-				if (d != i && d < i)
+				putchar(j);
+				putchar(i);
+				if (i == 57 && j == 56)
 				{
-					putchar(d);
-					putchar(i);
-					if (i == 57 && d == 56)
-					{
-						break;
-					}
-					putchar(',');
-					putchar(' ');
+					break;
 				}
-				i++;
+				putchar(',');
+				putchar(' ');
 			}
-			d++;
 		}
 	}
 	putchar('\n');
 	return (0);
+
 }
