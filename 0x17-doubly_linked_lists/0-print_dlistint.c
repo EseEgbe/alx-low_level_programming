@@ -2,7 +2,7 @@
 
 /**
  * print_dlistint - Prints all the elements of a
- *					dlistint_t list
+ *		dlistint_t list
  *
  * @h: Head of the list
  *
